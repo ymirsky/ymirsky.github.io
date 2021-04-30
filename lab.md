@@ -5,6 +5,8 @@ permalink: /Offensive.AI.Lab/
 
 ---
 
+<body style="background-color: #03061f"></body>
+
 <a href="https://offensive-ai-lab.github.io/"><svg id="d3banner"></svg></a>
 
 {% include datavis_d3banner.html %}
