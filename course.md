@@ -30,7 +30,7 @@ Welcome to the course site for `Offensive AI` <script>document.write(new Date().
 
 Artificial intelligence (AI) has provided us with the ability to automate tasks, extract information from vast amounts of data, and synthesize media that is nearly indistinguishable from the real thing. However, positive tools can also be used for negative purposes. In particular, cyber adversaries can also use AI, but to enhance their attacks and expand their campaigns.
 
-In this course we will learn about attacks against AI systems (adversarial machine learning) such as model poisoning, model inversion, mebership inference, trojaning, and adversrial examples. We will also learn about attacks which use AI, such as deepfakes for facial reenactment and voice cloning, advanced spyware, autnomous bots, evasive malware, and the use of machine leanrning to detect software vulnerabilities. Finally, throughout the course we will learn how we can defend against these attacks and learn the best pratices for developing systems which are robust against them too. 
+In this course we will learn about attacks against AI systems (adversarial machine learning) such as model poisoning, model inversion, membership inference, trojaning, and adversarial examples. We will also learn about attacks which use AI, such as deepfakes for facial reenactment and voice cloning, advanced spyware, autonomous bots, evasive malware, and the use of machine learning to detect software vulnerabilities. Finally, throughout the course we will learn how we can defend against these attacks and learn the best practices for developing systems which are robust against them too. 
 
 #### Purpose of the Course:
 
