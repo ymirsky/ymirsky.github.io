@@ -5,6 +5,8 @@ permalink: /Offensive.AI.Lab/
 
 ---
 
+<meta http-equiv="refresh" content="0; URL=https://offensive-ai-lab.github.io/" />
+
 <body style="background-color: #03061f"></body>
 
 <a href="https://offensive-ai-lab.github.io/"><svg id="d3banner"></svg></a>
