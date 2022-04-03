@@ -18,8 +18,8 @@ class LoanPredictor:
 
         M = RandomForestClassifier(n_estimators=10)
         self.M = M.fit(X_train,Y_train)
-        self.X_test = X_test
-        self.Y_test = Y_test
+        self.X_test = X_test.to_numpy()
+        self.Y_test = Y_test.to_numpy()
 
         Y_pred = M.predict(X_test)
         self.ACC = np.round(accuracy_score(Y_test, Y_pred),3)
