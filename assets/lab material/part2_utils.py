@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, roc_auc_score
 class LoanPredictor:
     def __init__(self):
         print("Setting up Victim Model")
-        datapath = "C:\\Users\\Yisroel\\OneDrive - Ben Gurion University of the Negev\\BGU\\Taught Classes\\Offensive AI\\lab\\LAB\\Part2\\original.csv"
+        datapath = "loan_dataset.csv"
         D = pd.read_csv(datapath)
         X = D[D.columns[1:-1]]
         Y = D[D.columns[-1]]
