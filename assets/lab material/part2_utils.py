@@ -12,14 +12,14 @@ class LoanPredictor:
         print("Setting up Victim Model")
         datapath = "loan_dataset.csv"
         D = pd.read_csv(datapath)
-        X = D[D.columns[1:-1]]
-        Y = D[D.columns[-1]]
+        X = D[D.columns[1:-1]].to_numpy()
+        Y = D[D.columns[-1]].to_numpy()
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
         M = RandomForestClassifier(n_estimators=10)
         self.M = M.fit(X_train,Y_train)
-        self.X_test = X_test.to_numpy()
-        self.Y_test = Y_test.to_numpy()
+        self.X_test = X_test
+        self.Y_test = Y_test
 
         Y_pred = M.predict(X_test)
         self.ACC = np.round(accuracy_score(Y_test, Y_pred),3)
