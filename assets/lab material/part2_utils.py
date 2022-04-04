@@ -23,13 +23,13 @@ class LoanPredictor:
 
         self.__train_model()
 
-        Y_pred = self.M.predict(X_test)
-        self.ACC = np.round(accuracy_score(Y_test, Y_pred),3)
-        self.AUC = np.round(roc_auc_score(Y_test, Y_pred),3)
+        Y_pred = self.M.predict(self.X_test)
+        self.ACC = np.round(accuracy_score(self.Y_test, self.Y_pred),3)
+        self.AUC = np.round(roc_auc_score(self.Y_test, self.Y_pred),3)
 
         # Setup poison detector
         self.norm = np.array([70000, 64, 14000])
-        self.A = NearestNeighbors(n_neighbors=2).fit(X_train / self.norm)
+        self.A = NearestNeighbors(n_neighbors=2).fit(self.X_train / self.norm)
 
     def predict(self, x):
         return self.M.predict(x)
