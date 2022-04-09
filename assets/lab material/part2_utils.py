@@ -190,7 +190,7 @@ class ModelAPI():
     
     # Load CNN architecture pretrained on ImageNet
     os.environ["TORCH_HOME"] = CHECKPOINT_PATH
-    self.blackboxmodel = torchvision.models.mobilenet_v3_large(pretrained=True)
+    self.blackboxmodel = torchvision.models.resnet18(pretrained=True)
     self.blackboxmodel = self.blackboxmodel.to(self.device)
 
     # No gradients needed for the network
