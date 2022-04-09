@@ -141,7 +141,6 @@ from torchvision import transforms
 try:
     import pytorch_lightning as pl
 except ModuleNotFoundError: # Google Colab does not have PyTorch Lightning installed by default. Hence, we do it here if necessary
-    !pip install --quiet pytorch-lightning>=1.4
     import pytorch_lightning as pl
 from pytorch_lightning.callbacks import LearningRateMonitor, ModelCheckpoint
 import urllib.request
