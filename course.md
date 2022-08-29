@@ -30,7 +30,7 @@ Welcome to the course site for `Offensive AI` <script>document.write(new Date().
 
 Artificial intelligence (AI) has provided us with the ability to automate tasks, extract information from vast amounts of data, and synthesize media that is nearly indistinguishable from the real thing. However, positive tools can also be used for negative purposes. In particular, cyber adversaries can also use AI, but to enhance their attacks and expand their campaigns.
 
-In this course we will learn about attacks against AI systems (adversarial machine learning) such as model poisoning, model inversion, membership inference, trojaning, and adversarial examples. We will also learn about attacks which use AI, such as deepfakes for facial reenactment and voice cloning, advanced spyware, autonomous bots, evasive malware, and the use of machine learning to detect software vulnerabilities. Finally, throughout the course we will learn how we can defend against these attacks and learn the best practices for developing systems which are robust against them too. 
+In this course we will learn about attacks against AI systems (adversarial machine learning) such as model poisoning, model inversion, membership inference, backdoors, and adversarial examples. We will also learn about attacks which use AI, such as deepfakes for facial reenactment and voice cloning, advanced spyware, autonomous bots, evasive malware, and the use of machine learning to detect software vulnerabilities. Finally, throughout the course we will learn how we can defend against these attacks and learn the best practices for developing systems which are robust against them too. 
 
 #### Purpose of the Course:
 
@@ -42,10 +42,11 @@ At least one course in machine learning (e.g., 372.1.4951, 372.1.4952, 372.2.591
 
 #### Course Requirements:
 
-- Attendance is required.
+- Attendance is required (10% of the grade).
 - Students must learn the course from the lectures and any provided written materials.
-- Students will submit one practical exercise in Python (10% of the grade), and one project which will be presented in the final lecture (15% of the grade).
-- The final exam is 75% of the grade. Passing the exam is required for passing the course. 
+- Students will submit one practical exercise in Python (10% of the grade), and one project which will be presented in the final lecture (30% of the grade). 
+- The final exam is 50% of the grade. Passing the exam is required for passing the course.
+- This course will be taught in English.
 
 #### Lectures: 
 
@@ -64,11 +65,15 @@ Adversarial examples, sponge examples, model inversion, membership inference, an
 `Week 6` Deepfakes I: <br/>
 Ethics of deepfakes and Generative AI used for facial reenactment  <br/>`Week 7` Deepfakes II: <br/>
 Generative AI used for face replacement, face synthesis, and record tampering <br/>`Week 8` Deepfakes III: <br/>
-Generative AI for voice cloning, spoofing, and audio driven reenactment  <br/>`Week 9` Detection, Prevention, and Mitigation of Deepfakes <br/>
+Generative AI for voice cloning, spoofing, and audio driven reenactment  <br/>
+
+`Week 9` Lab: Creating deepfakes with python <br/>
+
+`Week 10` Detection, Prevention, and Mitigation of Deepfakes <br/>
 
 *Attacks using AI: Attack Tools*
 
-`Week 10` Attack Planning and Exploit Development  <br/>`Week 11` Spyware and Credential Theft <br/>`Week 12` Intelligent Bots, Swarms, Detection Evasion, and Campaign Automation
+`Week 11` Attack Planning and Exploit Development  <br/>`Week 12` Spyware and Credential Theft <br/>
 
 *Course Conclusion*
 
