@@ -35,6 +35,7 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 
 ## Talks
 
+- `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
 - `RSA Security Conference` (USA 2021)<br/>Securing Tesla \& Mobileye From Split-Second Phantom Attacks
 - `Royal Holloway University of London`Invited Talk -- Research Seminar (2019)<br/>
   Medical Deepfakes: How malware can automatically tamper CT and MRI Scans
@@ -54,6 +55,9 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
+- [VulChecker: Graph-based Vulnerability Localization in Source Code](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky) Yisroel Mirsky, George Macon, Michael Brown, Carter Yagemann, Matthew Pruett, Evan Downing, Sukarno Mertoguno, Wenke Lee. USENIX Security Symposium, 2023. `Rank A`
+- [Deepfake CAPTCHA: A Method for Preventing Fake Calls](https://arxiv.org/pdf/2301.03064) Lior Yasur, Guy Frankovits, Fred M Grabovski, Yisroel Mirsky. Preprint 2023.
+- [The Threat of Offensive AI to Organizations](https://www.sciencedirect.com/science/article/pii/S0167404822003984) Yisroel Mirsky, Ambra Demontis, Jaidip Kotak, Ram Shankar, Deng Gelei, Liu Yang, Xiangyu Zhang, Maura Pintor, Wenke Lee, Yuval Elovici, Battista Biggio. Computers & Secuirty 2022. `IF 5.1, 34/246, Q1`
 - [DeepReflect: Discovering Malicious Functionality through Binary Reconstruction](https://www.usenix.org/system/files/sec21fall-downing.pdf) Evan Downing, Yisroel Mirsky, Kyuhong Park, and Wenke Lee.
   USENIX Security Symposium, 2021. `Rank A`
 - [Attacking Tesla Model Xs Autopilot Using Compromised Advertisement](https://www.ndss-symposium.org/wp-content/uploads/autosec2021_23004_paper.pdf) Ben Nassi, Yisroel Mirsky, Dudi Nassi, Raz Ben-Netanel, Oleg Drokin, and Yuval Elovici. Workshop on Automotive and Autonomous Vehicle Security (AutoSec), 2021. Co-located with NDSS.
