@@ -42,10 +42,9 @@ At least one course in machine learning (e.g., 372.1.4951, 372.1.4952, 372.2.591
 
 #### Course Requirements:
 
-- Attendance is required (10% of the grade).
 - Students must learn the course from the lectures and any provided written materials.
-- Students will submit one practical exercise in Python (10% of the grade), and one project which will be presented in the final lecture (30% of the grade). 
-- The final exam is 50% of the grade. Passing the exam is required for passing the course.
+- Students will submit one practical exercise in Python (10% of the grade), and one project which will be presented in the final lecture (20% of the grade). 
+- The final exam is 70% of the grade. Passing the exam is required for passing the course.
 - This course will be taught in English.
 
 #### Lectures: 
@@ -56,24 +55,20 @@ At least one course in machine learning (e.g., 372.1.4951, 372.1.4952, 372.2.591
 
 *Attacks on AI*
 
-`Week 2` Adversarial Machine Learning I (Causative Attacks): <br/>
-Dataset poisoning and fault attacks (e.g., neural trojans, defense evasion, allergy attacks, clustering attacks).   <br/>`Week 3` Adversarial Machine Learning II (Exploratory Attacks): <br/>
-Adversarial examples, sponge examples, model inversion, membership inference, and parameter inference. <br/>`Week 4` Prevention and Mitigation of Adversarial Machine Learning <br/>`Week 5` Lab: Adversarial Machine Learning with libraries and Torch in Python
+`Week 2` Adversarial Machine Learning I (Adversarial Examples): <br/>
+Whitebox Attacks.   <br/>`Week 3` Adversarial Machine Learning II (Adversarial Examples): <br/>
+Black box Attacks. <br/>`Week 4` Adversarial Machine Learning III (Confidentiality & Backdoor Attacks) <br/> `Week 5` Adversarial Machine Learning IV (LLM Security) <br/> `Week 6` Lab: Adversarial Machine Learning  <br/> `Week 7` Defences Against Adversarial Machine Learning
 
 *Attacks using AI: Deepfakes*
 
-`Week 6` Deepfakes I: <br/>
-Ethics of deepfakes and Generative AI used for facial reenactment  <br/>`Week 7` Deepfakes II: <br/>
-Generative AI used for face replacement, face synthesis, and record tampering <br/>`Week 8` Deepfakes III: <br/>
-Generative AI for voice cloning, spoofing, and audio driven reenactment  <br/>
-
-`Week 9` Lab: Creating deepfakes with python <br/>
-
-`Week 10` Detection, Prevention, and Mitigation of Deepfakes <br/>
+`Week 8` Deepfakes I: <br/>
+Facial reenactment/replacement & Image Editing  <br/>`Week 9` Deepfakes II: <br/>
+Voice synthesis and cloning <br/>`Week 10` Detection, Prevention, and Mitigation of Deepfakes <br/>
 
 *Attacks using AI: Attack Tools*
 
 `Week 11` Attack Planning and Exploit Development  <br/>`Week 12` Spyware and Credential Theft <br/>
+
 
 *Course Conclusion*
 

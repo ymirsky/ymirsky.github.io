@@ -8,7 +8,7 @@
 layout: home
 ---
 
-![image]({{site.baseurl}}/assets/members/yisroel.mirsky.png){: style="float: left; margin-right:10px" width="250px"} 
+![image]({{site.baseurl}}/assets/members/yisroel.mirsky.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
 `Yisroel Mirsky` is a tenure-track lecturer and Zuckerman Faculty Scholar in the Department of Software and Information Systems Engineering at Ben-Gurion University. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include deepfakes, adversarial machine learning, anomaly detection, and intrusion detection. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
 
@@ -30,11 +30,14 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
   <img src="{{site.baseurl}}/assets/logos/IIA.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
+    <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
+	 <img src="{{site.baseurl}}/assets/logos/MS.png" width="200" style="margin: 15px;" />
 </p>
 
 
 ## Talks
-
+- `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
+- `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
 - `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
 - `RSA Security Conference` (USA 2021)<br/>Securing Tesla \& Mobileye From Split-Second Phantom Attacks
 - `Royal Holloway University of London`Invited Talk -- Research Seminar (2019)<br/>
@@ -51,10 +54,15 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 - `CODE BLUE` (BlackHat Japan) Security Conference (Tokyo, 2016)<br/>
   Air-Gap Security: State-of-the-art Attacks, Analysis, and Mitigation
 
+<iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Publications
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
+- [What Was Your Prompt? A Remote Keylogging Attack on AI Assistants](https://www.usenix.org/conference/usenixsecurity24/presentation/weiss) R Weiss, D Ayzenshteyn, G Amit, Y Mirsky. USENIX 2024 `Rank A*` & DEF CON 32.
+- [Efficient Model Extraction via Boundary Sampling](https://arxiv.org/pdf/2410.15429) Maor Biton Dor, Yisroel Mirsky. ACM AISec, 2024 `Best Paper Award`
+- [Exploiting LLMs for Scam Automation: A Looming Threat](https://dl.acm.org/doi/pdf/10.1145/3660354.3660356) G Gressel, R Pankajakshan, Y Mirsky. WDC, 2024 `Best Paper Award`
 - [Transpose Attack: Stealing Datasets with Bidirectional Training](https://www.ndss-symposium.org/ndss2024/) Guy Amit, Moshe Levy, Yisroel Mirsky. NDSS, 2024. `Rank A*`
 - [VulChecker: Graph-based Vulnerability Localization in Source Code](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky) Yisroel Mirsky, George Macon, Michael Brown, Carter Yagemann, Matthew Pruett, Evan Downing, Sukarno Mertoguno, Wenke Lee. USENIX Security Symposium, 2023. `Rank A*`
 - [Deepfake CAPTCHA: A Method for Preventing Fake Calls](https://dl.acm.org/doi/pdf/10.1145/3579856.3595801) Lior Yasur, Guy Frankovits, Fred M Grabovski, Yisroel Mirsky. ASIA CCS 2023. `Rank A`
