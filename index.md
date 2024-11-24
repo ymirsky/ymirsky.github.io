@@ -36,6 +36,9 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 
 
 ## Talks
+<iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Other Talks:
 - `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
 - `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
 - `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
@@ -54,7 +57,6 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 - `CODE BLUE` (BlackHat Japan) Security Conference (Tokyo, 2016)<br/>
   Air-Gap Security: State-of-the-art Attacks, Analysis, and Mitigation
 
-<iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Publications
 
