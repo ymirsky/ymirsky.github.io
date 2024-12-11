@@ -73,36 +73,48 @@ class LoanPredictor:
             print("Model updated")
 
 
+   
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 nltk.download('vader_lexicon')
 
 class TwitterAPI:
-  def __init__(self):
-    self.__target = "I really don't like what the government is doing :-("
-    self.__sid = SentimentIntensityAnalyzer()
+    def __init__(self):
+        self.__target = "I really don't like what the government is doing :-("
+        self.__sid = SentimentIntensityAnalyzer()
 
-  def __get_jaccard_sim(self, str1, str2): 
-      a = set(str1.lower().split()) 
-      b = set(str2.lower().split())
-      c = a.intersection(b)
-      return float(len(c)) / (len(a) + len(b) - len(c))
+    def __get_jaccard_sim(self, str1, str2):
+        """
+        Calculates the Jaccard similarity between two strings.
+        """
+        a = set(str1.lower().split())
+        b = set(str2.lower().split())
+        c = a.intersection(b)
+        return float(len(c)) / (len(a) + len(b) - len(c))
 
-  def sendTweet(self, tweet):
-    #check if similar enough to target
-    jac = self.__get_jaccard_sim(tweet, self.__target)
-    senti = self.__sid.polarity_scores(tweet)
+    def sendTweet(self, tweet):
+        """
+        Checks the similarity and sentiment of the tweet.
+        """
+        # Check similarity to the target
+        jac = self.__get_jaccard_sim(tweet, self.__target)
+        senti = self.__sid.polarity_scores(tweet)
 
-    if jac < 0.38 or ("government" not in tweet.lower()):
-      print("Your Tweet was too diffrent from the target, try again")
-      return
+        # Similarity check
+        if jac < 0.1 or ("government" not in tweet.lower()):
+            print("Your Tweet was too different from the target, try again.")
+            return 
 
-    if senti['compound'] < 0.9:
-      print("You said something negative about the government, police have been dispatched!")
-    else:
-      print("Tweet sent successfuly. Long live the resistance!")
+        # Sentiment check
+        if senti['compound'] <= 0.1:
+            print("You said something negative about the government, police have been dispatched!")
+        elif senti['compound'] > 0.8:
+            print("Your sentiment was overly positive, and that doesn't seem authentic. Try again.")
+        else:
+            print("Tweet sent successfully. Long live the resistance!")
 
-    return
+        return
+
     
     
     
