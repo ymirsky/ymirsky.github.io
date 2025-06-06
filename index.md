@@ -18,11 +18,9 @@ I am actively seeking excellent M.Sc. and Ph.D. students who would like to resea
 
 ## Grants
 
-Over the years, I have been awarded a number of grants  from a wide variety of institutions. Working with these organizations has been an incredible experience. Thank you for your support!
+Over the years, I have been awarded a number of grants from a wide variety of institutions. Working with these organizations has been an incredible experience. Thank you for your support!
 
 <p float="left">
-  <img src="{{site.baseurl}}/assets/logos/darpa.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/tii.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/samsung.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
