@@ -29,7 +29,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
     <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
-	 <img src="{{site.baseurl}}/assets/logos/erc.png" width="300" style="margin: 15px;" />
+	 <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
 </p>
 
 
