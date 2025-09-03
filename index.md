@@ -10,11 +10,11 @@ layout: home
 
 ![image]({{site.baseurl}}/assets/members/yisroel.mirsky.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
-`Yisroel Mirsky` is a tenured Assistant Professor and Zuckerman Faculty Scholar in the Department of Software and Information Systems Engineering at Ben-Gurion University. He is the head of the [Offensive AI Research Lab](https://offensive-ai-lab.github.io/) at CBG. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include deepfakes, adversarial machine learning, anomaly detection, and intrusion detection. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
+`Yisroel Mirsky` is a tenured Assistant Professor and Zuckerman Faculty Scholar in the Department of Software and Information Systems Engineering at Ben-Gurion University. He is the head of the [Offensive AI Research Lab](https://offensive-ai-lab.github.io/) at CBG. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include AI safety, AI agent security, deepfakes and adversarial machine learning. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
 
 ## Prospective Students
 
-I am actively seeking excellent M.Sc. and Ph.D. students who would like to research offensive AI (adversarial machine learning , deepfakes, attack automation, ...) or AI-based intrusion detection. If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
+I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning , deepfakes, attack automation, ...) or AI-based intrusion detection. If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
 
 ## Grants
 
@@ -60,7 +60,11 @@ Other Talks:
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
-- [What Was Your Prompt? A Remote Keylogging Attack on AI Assistants](https://www.usenix.org/conference/usenixsecurity24/presentation/weiss) R Weiss, D Ayzenshteyn, G Amit, Y Mirsky. USENIX 2024 `Rank A*` & DEF CON 32.
+- [Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf) D Ayzenshteyn, R Weiss, Y Mirsky. USENIX Security 2025 `Rank A*`
+- [The Threat of Deepfake Fingerprints](https://dl.acm.org/doi/pdf/10.1145/3709022) Y Hacmon, K Gorelik, Y Mirsky. WDC, 2025 `Best Paper Award`
+- [PEAS: A Strategy for Crafting Transferable Adversarial Examples](https://dl.acm.org/doi/pdf/10.1145/3763003) B Avraham, Y Mirsky. ACM TIST. 2025 `Rank Q1`.‏
+- [Counter-Samples: A Stateless Strategy to Neutralize Black Box Adversarial Attacks](https://dl.acm.org/doi/pdf/10.1145/3744657) R Bokobza, Y Mirsky. ACM TIST. 2025 `Rank Q1`‏
+- [What Was Your Prompt? A Remote Keylogging Attack on AI Assistants](https://www.usenix.org/conference/usenixsecurity24/presentation/weiss) R Weiss, D Ayzenshteyn, G Amit, Y Mirsky. USENIX Security 2024 `Rank A*` & DEF CON 32.
 - [Efficient Model Extraction via Boundary Sampling](https://arxiv.org/pdf/2410.15429) Maor Biton Dor, Yisroel Mirsky. ACM AISec, 2024 `Best Paper Award`
 - [Exploiting LLMs for Scam Automation: A Looming Threat](https://dl.acm.org/doi/pdf/10.1145/3660354.3660356) G Gressel, R Pankajakshan, Y Mirsky. WDC, 2024 `Best Paper Award`
 - [Transpose Attack: Stealing Datasets with Bidirectional Training](https://www.ndss-symposium.org/ndss2024/) Guy Amit, Moshe Levy, Yisroel Mirsky. NDSS, 2024. `Rank A*`
