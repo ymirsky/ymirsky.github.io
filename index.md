@@ -20,7 +20,9 @@ I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would lik
 
 Over the years, I have been awarded a number of grants from a wide variety of institutions. Working with these organizations has been an incredible experience. Thank you for your support!
 
-<p float="left">
+<p float="left">	 
+  <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
+	 <img src="{{site.baseurl}}/assets/logos/MSc.png" width="350" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/samsung.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
@@ -29,7 +31,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
     <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
-	 <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
+  	 <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
 </p>
 
 
@@ -37,6 +39,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 <iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Other Talks:
+- 'AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
 - `Sandia National Laboratories` (USA 2025) `Keynote Talk` <br/>ML/DL Workshop - Offensive AI: The Dark Side of Intelligent Systems<br/>
 - `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
 - `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
@@ -61,6 +64,8 @@ Other Talks:
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
+- Memory Backdoor Attacks on Neural Networks. Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
+- [Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias](https://arxiv.org/pdf/2508.17361) Shir Bernstein, David Beste, Daniel Ayzenshteyn, Lea Schönherr, Yisroel Mirsky.  NDSS'26. `Rank A*`
 - [Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf) D Ayzenshteyn, R Weiss, Y Mirsky. USENIX Security 2025 `Rank A*`
 - [The Threat of Deepfake Fingerprints](https://dl.acm.org/doi/pdf/10.1145/3709022) Y Hacmon, K Gorelik, Y Mirsky. WDC, 2025 `Best Paper Award`
 - [PEAS: A Strategy for Crafting Transferable Adversarial Examples](https://dl.acm.org/doi/pdf/10.1145/3763003) B Avraham, Y Mirsky. ACM TIST. 2025 `Rank Q1`.‏
