@@ -36,7 +36,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 
 
 ## Talks
-<iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1840" height="1035" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Other Talks:
 - 'AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
