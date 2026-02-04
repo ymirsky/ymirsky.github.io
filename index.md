@@ -22,7 +22,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 
 <p float="left">	 
   <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
-	 <img src="{{site.baseurl}}/assets/logos/MSc.png" width="350" style="margin: 15px;" />
+	 <img src="{{site.baseurl}}/assets/logos/MS.png" width="350" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/samsung.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
