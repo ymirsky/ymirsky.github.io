@@ -16,7 +16,7 @@ layout: home
 
 ## Prospective Students
 
-I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning , deepfakes, attack automation, ...) or AI-based intrusion detection. If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
+I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning, AI safety, deepfakes, attack automation, ...). If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
 
 ---
 
