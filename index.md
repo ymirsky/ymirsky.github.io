@@ -34,6 +34,17 @@ Over the years, I have been awarded a number of grants from a wide variety of in
   	 <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
 </p>
 
+## Consulting, Research, & Training
+
+With over a decade of experience in **red teaming** and **AI security research** and as a **principal investigator in over $4 million of projects with government and industry**, I provide expert guidance to organizations navigating the complex landscape of modern AI threats. My services are designed for companies seeking to ensure the safety of their AI deployments or to defend against AI-enhanced adversaries.
+
+### Services Offered
+* **Consulting:** Strategic advisory and technical oversight tailored to your mission. I provide the expert review, actionable insights, and robust solutions necessary to navigate complex security and AI landscapes
+* **Training:** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
+* **Research:** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
+
+---
+**Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
 
 ## Talks
 <iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -64,7 +75,8 @@ Other Talks:
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
-- Memory Backdoor Attacks on Neural Networks. Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
+- [GAVEL: Towards rule-based safety through activation monitoring](https://arxiv.org/pdf/2601.19768). Shir Rozenfeld, Rahul Pankajakshan, Itay Zloczower, Eyal Lenga, Gilad Gressel, Yisroel Mirsky. ICLR 2026. `Rank A*`
+- [Memory Backdoor Attacks on Neural Networks](https://arxiv.org/pdf/2411.14516). Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
 - [Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias](https://arxiv.org/pdf/2508.17361) Shir Bernstein, David Beste, Daniel Ayzenshteyn, Lea Schönherr, Yisroel Mirsky.  NDSS'26. `Rank A*`
 - [Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf) D Ayzenshteyn, R Weiss, Y Mirsky. USENIX Security 2025 `Rank A*`
 - [The Threat of Deepfake Fingerprints](https://dl.acm.org/doi/pdf/10.1145/3709022) Y Hacmon, K Gorelik, Y Mirsky. WDC, 2025 `Best Paper Award`
