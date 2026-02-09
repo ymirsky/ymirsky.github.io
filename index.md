@@ -12,9 +12,26 @@ layout: home
 
 `Yisroel Mirsky` is a tenured Assistant Professor and Zuckerman Faculty Scholar in the Department of Software and Information Systems Engineering at Ben-Gurion University. He is the head of the [Offensive AI Research Lab](https://offensive-ai-lab.github.io/) at CBG. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include AI safety, AI agent security, deepfakes and adversarial machine learning. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
 
+---
+
 ## Prospective Students
 
 I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning , deepfakes, attack automation, ...) or AI-based intrusion detection. If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
+
+---
+
+## Consulting, Research, & Training
+
+With over a decade of experience in **red teaming** and **AI security research** and as a **principal investigator in over $4 million of projects with government and industry**, I provide expert guidance to organizations navigating the complex landscape of modern AI threats. My services are designed for companies seeking to ensure the safety of their AI deployments or to defend against AI-enhanced adversaries.
+
+### Services Offered
+* **Consulting:** Strategic advisory and technical oversight tailored to your mission. I provide the expert review, actionable insights, and robust solutions necessary to navigate complex security and AI landscapes
+* **Training:** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
+* **Research:** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
+
+**Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
+
+---
 
 ## Grants
 
@@ -33,17 +50,6 @@ Over the years, I have been awarded a number of grants from a wide variety of in
     <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
   	 <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
 </p>
-
-## Consulting, Research, & Training
-
-With over a decade of experience in **red teaming** and **AI security research** and as a **principal investigator in over $4 million of projects with government and industry**, I provide expert guidance to organizations navigating the complex landscape of modern AI threats. My services are designed for companies seeking to ensure the safety of their AI deployments or to defend against AI-enhanced adversaries.
-
-### Services Offered
-* **Consulting:** Strategic advisory and technical oversight tailored to your mission. I provide the expert review, actionable insights, and robust solutions necessary to navigate complex security and AI landscapes
-* **Training:** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
-* **Research:** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
-
-**Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
 
 ---
 
@@ -71,6 +77,7 @@ Other Talks:
 - `CODE BLUE` (BlackHat Japan) Security Conference (Tokyo, 2016)<br/>
   Air-Gap Security: State-of-the-art Attacks, Analysis, and Mitigation
 
+---
 
 ## Publications
 
