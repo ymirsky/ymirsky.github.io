@@ -43,8 +43,9 @@ With over a decade of experience in **red teaming** and **AI security research**
 * **Training:** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
 * **Research:** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
 
----
 **Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
+
+---
 
 ## Talks
 <iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
