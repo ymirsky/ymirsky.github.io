@@ -55,7 +55,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 
 ## Talks
 <iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/nK4TMJpLbRE" title="Offensive AI Is Here. Now What Do We Do About It? | Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Other Talks:
 - 'AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
 - `Sandia National Laboratories` (USA 2025) `Keynote Talk` <br/>ML/DL Workshop - Offensive AI: The Dark Side of Intelligent Systems<br/>
