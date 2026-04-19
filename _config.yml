@@ -3,7 +3,7 @@ author:
   name: Dr. Yisroel Mirsky
   email: yisroel(at)post.bgu.ac.il
 description: > # this means to ignore newlines until "show_excerpts:"
-  Dr. Yisroel Mirsky is a cyber security researcher and tenure track lecturer at Ben-Gurion University. His main research interests include deepfakes, adversarial machine learning, anomaly detection, and intrusion detection. 
+  Dr. Yisroel Mirsky is a AI security researcher and tenured Assistant Prof. at Ben-Gurion University. His main research interests include AI security, safety and misuse. 
 
 
 show_excerpts: false # set to true to show excerpts on the homepage
