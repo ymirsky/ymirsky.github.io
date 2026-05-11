@@ -59,14 +59,16 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 <iframe width="702" height="395" src="https://www.youtube.com/embed/nK4TMJpLbRE" title="AI Security Forum - Tel Aviv 2026 | Offensive AI Is Here. Now What Do We Do About It?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 -->
 Other Talks:
-- `Stanford University`, `Emory University`, `A&M Texas University`, `Georgia Institute of Technology`, `Northeastern University` (USA 2026) <br/>Offensive AI is here. Now what? (extended edition)<br/>
+- `MIT - Massachusetts Institute of Technology` CAMS `Keynote Lecture` (USA 2026) <br/>Offensive AI is here. Now what do we do about it? <br/>
+- `Stanford University`, `Emory University`, `A&M Texas University`, `Georgia Institute of Technology`, `Northeastern University` (USA 2026) <br/>Cyber Threats of AI<br/>
+- `CISPA`, `Max Planck Institute for Security and Privacy (MPI-SP)`, `TU Berlin BIFOLD` (Europe 2026) <br/>Cyber Threats of AI<br/>
 - `AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
 - `Sandia National Laboratories` (USA 2025) `Keynote Talk` <br/>ML/DL Workshop - Offensive AI: The Dark Side of Intelligent Systems<br/>
 - `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
 - `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
 - `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
 - `RSA Security Conference` (USA 2021)<br/>Securing Tesla \& Mobileye From Split-Second Phantom Attacks
-- `Royal Holloway University of London`Invited Talk -- Research Seminar (2019)<br/>
+- `Royal Holloway University of London` Invited Talk -- Research Seminar (2019)<br/>
   Medical Deepfakes: How malware can automatically tamper CT and MRI Scans
 - `MIT - Massachusetts Institute of Technology` Research Seminar (2019)<br/>An invited talk on my research at the ALPHA group of CSAIL (2019).
 - `DEF CON 27` AI Village (USA 2019)<br/>Automated Injection \& Removal of Medical Evidence in CT and MRI Scans
@@ -85,7 +87,7 @@ Other Talks:
 ## Publications
 
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
-
+- [Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams](https://arxiv.org/abs/2512.16280). Gilad Gressel, Rahul Pankajakshan, Shir Rozenfeld, Ling Li, Ivan Franceschini, Krishnashree Achuthan, Yisroel Mirsky. USENIX 2026. `Rank A*`
 - [GAVEL: Towards rule-based safety through activation monitoring](https://arxiv.org/pdf/2601.19768). Shir Rozenfeld, Rahul Pankajakshan, Itay Zloczower, Eyal Lenga, Gilad Gressel, Yisroel Mirsky. ICLR 2026. `Rank A*`
 - [Memory Backdoor Attacks on Neural Networks](https://arxiv.org/pdf/2411.14516). Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
 - [Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias](https://arxiv.org/pdf/2508.17361) Shir Bernstein, David Beste, Daniel Ayzenshteyn, Lea Schönherr, Yisroel Mirsky.  NDSS'26. `Rank A*`
