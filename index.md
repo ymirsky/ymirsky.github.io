@@ -60,6 +60,7 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 -->
 Other Talks:
 - `MIT - Massachusetts Institute of Technology` CAMS `Keynote Lecture` (USA 2026) <br/>Offensive AI is here. Now what do we do about it? <br/>
+- 'Black Hat` (USA 2026) <br/>Rules for Neural Traffic: A New Defensive Layer for LLMs<br/>
 - `Stanford University`, `Emory University`, `A&M Texas University`, `Georgia Institute of Technology`, `Northeastern University` (USA 2026) <br/>Cyber Threats of AI<br/>
 - `CISPA`, `Max Planck Institute for Security and Privacy (MPI-SP)`, `TU Berlin BIFOLD` (Europe 2026) <br/>Cyber Threats of AI<br/>
 - `AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
