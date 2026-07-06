@@ -54,8 +54,8 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 ---
 
 ## Talks
-# Stanford University: Real World AI Security 2026
-<iframe width="972" height="547" src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+# 
+<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University &#39;24 Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # USENIX Security 2024
 <iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!-- 
