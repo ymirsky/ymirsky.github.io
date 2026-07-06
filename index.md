@@ -54,11 +54,30 @@ Over the years, I have been awarded a number of grants from a wide variety of in
 ---
 
 ## Talks
-# 
-<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University &#39;24 Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-# USENIX Security 2024
+<div class="yt-embed" data-id="IUnmtDoyBvk"
+     style="position:relative;width:702px;max-width:100%;aspect-ratio:702/395;cursor:pointer;overflow:hidden;border-radius:8px;background:#000;"
+     onclick="loadYT(this)">
+  <img src="https://ymirsky.github.io/assets/images/GAVEL_cover.jpg"
+       alt="Stanford University &#39;24 Real World AI Security 2026"
+       style="width:100%;height:100%;object-fit:cover;display:block;">
+  <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+    <svg height="48" width="68" viewBox="0 0 68 48">
+      <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/>
+      <path d="M45 24 27 14v20" fill="#fff"/>
+    </svg>
+  </div>
+</div>
+<script>
+function loadYT(el){
+  el.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/'
+    + el.dataset.id + '?autoplay=1" title="Yisroel Mirsky" frameborder="0" '
+    + 'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+    + 'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+}
+</script>
 <iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!-- 
+<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University &#39;24 Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="702" height="395" src="https://www.youtube.com/embed/nK4TMJpLbRE" title="AI Security Forum - Tel Aviv 2026 | Offensive AI Is Here. Now What Do We Do About It?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 -->
 Other Talks:
