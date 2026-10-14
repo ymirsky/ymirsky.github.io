@@ -5,4 +5,4 @@ permalink: /Offensive.AI.Lab/
 
 ---
 
-<meta http-equiv="refresh" content="0; URL=https://offensive-ai-lab.github.io/" />
+<meta http-equiv="refresh" content="0; URL={{ site.lab_url }}" />

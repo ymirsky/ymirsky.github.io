@@ -1,0 +1,25 @@
+{%- comment -%}
+  Featured Research, pulled live from the lab's research hub ({{ site.lab_url }}/research/) by assets/js/lab-sync.js.
+  New project pages on the lab site appear here automatically. The link card below is what visitors see
+  if JavaScript is off or the lab site can't be reached.
+{%- endcomment -%}
+<div class="container">
+  <div class="section-head section-head--split">
+    <div>
+      <p class="eyebrow">From the Offensive AI Lab</p>
+      <h2>Featured Research</h2>
+      <p class="section-lead">Selected projects from my lab, each with its own page covering the problem, our approach, and the papers, code, talks, and tools that came out of it.</p>
+    </div>
+    <a class="btn btn-small" id="research-more" href="{{ site.lab_url }}/research/">Browse all projects <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <div class="rgrid" id="research-grid" data-max="4" aria-live="polite">
+    <a class="rcard rcard--fallback" href="{{ site.lab_url }}/research/">
+      <div class="rcard-body">
+        <h3 class="rcard-title">Explore featured research at the Offensive AI Lab</h3>
+        <p class="rcard-subtitle">Project pages with papers, code, talks, and tools.</p>
+        <span class="rcard-cta">Visit offensive-ai-lab.com <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+  </div>
+</div>

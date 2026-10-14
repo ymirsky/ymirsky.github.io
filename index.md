@@ -1,97 +1,83 @@
 ---
 #
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# Home page. Edit the text below as normal Markdown; just keep the <section> / <div> wrappers.
+# The hero (top banner), highlights and "featured in" logos are set in this front matter.
+#
+# Featured Research and new lab papers are pulled live from the lab site (offensive-ai-lab.com) by
+# assets/js/lab-sync.js. Papers added to the lab's Publications page show up here automatically, so
+# the list below only needs papers that aren't on the lab site.
 #
 layout: home
+hero:
+  eyebrow: AI Security · AI Safety · Offensive AI
+  name: Yisroel Mirsky
+  role: Tenured Assistant Professor at Ben-Gurion University and head of the Offensive AI Research Lab
+  lead: I study how adversaries use and abuse AI, from attacks on LLMs and AI agents to deepfakes, and build the defenses to stop them before they go mainstream.
+highlights:
+  - value: ERC-StG
+    label: 2025 Starting Grant
+  - value: CoSAI
+    label: Board member
+  - value: $4M+
+    label: in projects as PI
+  - value: $10K+
+    label: in AI bug bounties
+featured_in:
+  - name: WIRED
+    logo: /assets/logos/Wired.png
+    url: https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/
+  - name: The Washington Post
+    logo: /assets/logos/wp.png
+    url: https://www.washingtonpost.com/technology/2019/04/03/hospital-viruses-fake-cancerous-nodes-ct-scans-created-by-malware-trick-radiologists/
+  - name: Forbes
+    logo: /assets/logos/forbes.png
+    url: https://www.forbes.com/sites/daveywinder/2019/04/05/malware-removes-cancer-tumors-from-ct-scans-and-fools-radiologists/
+  - name: TechCrunch
+    logo: /assets/logos/tc2.png
+    url: https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/
 ---
 
-![image]({{site.baseurl}}/assets/members/yisroel.mirsky.jpg){: style="float: left; margin-right:10px" width="250px"} 
+<section class="section" id="about" markdown="1">
+<div class="container about" markdown="1">
 
-`Yisroel Mirsky` is a tenured Assistant Professor and Zuckerman Faculty Scholar in the Institute of Software Systems and Security at Ben-Gurion University, where he leads the [Offensive AI Research Lab](https://offensive-ai-lab.github.io/) at CBG. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include AI safety, AI agent security, deepfakes and adversarial machine learning. Dr. Mirsky is an ERC-STG 2025 recipient and a board member of the Coalition for AI Safety (CoSAI) with leading AI industry members such as Google, NVIDIA, Microsoft, OpenAI and Anthropic. He has published his work in some of the best security venues:  *Black Hat, DEF CON, RSA, USENIX, CCS, NDSS, CSF, AI Security Forum, AISec, Code Blue,* etc. His research has also been featured in many well-known media outlets: *Wired, Ars Technica, Tech Crunch, The Wall Street Journal, Forbes, Popular Science,* and *Scientific American*. His work has earned numerous accolades over the years, including more than $10,000 in bug bounties for discovering AI security vulnerabilities. Some of his works include the exposure of vulnerabilities in the US 911 emergency services and exposing the threat of deepfakes in medical scans, both featured in *The Washington Post.*
+<figure class="about-photo">
+  <img src="{{site.baseurl}}/assets/members/yisroel.mirsky.jpg" alt="Yisroel Mirsky">
+</figure>
 
----
+<div class="about-body" markdown="1">
 
-## Prospective Students
+## About
 
-I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning, AI safety, deepfakes, attack automation, ...). If you are interested, [come check out our lab](https://offensive-ai-lab.github.io) or send me an email! 
+`Yisroel Mirsky` is a tenured Assistant Professor and Zuckerman Faculty Scholar in the Institute of Software Systems and Security at Ben-Gurion University, where he leads the [Offensive AI Research Lab]({{ site.lab_url }}) at CBG. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include AI safety, AI agent security, deepfakes and adversarial machine learning.
 
----
+Dr. Mirsky is an ERC-STG 2025 recipient and a board member of the Coalition for AI Safety (CoSAI) with leading AI industry members such as Google, NVIDIA, Microsoft, OpenAI and Anthropic. He has published his work in some of the best security venues:  *Black Hat, DEF CON, RSA, USENIX, CCS, NDSS, CSF, AI Security Forum, AISec, Code Blue,* etc. His research has also been featured in many well-known media outlets: *Wired, Ars Technica, Tech Crunch, The Wall Street Journal, Forbes, Popular Science,* and *Scientific American*.
 
-## Consulting, Research, & Training
+His work has earned numerous accolades over the years, including more than $10,000 in bug bounties for discovering AI security vulnerabilities. Some of his works include the exposure of vulnerabilities in the US 911 emergency services and exposing the threat of deepfakes in medical scans, both featured in *The Washington Post.*
 
-With over a decade of experience in **red teaming** and **AI security research** and as a **principal investigator in over $4 million of projects with government and industry**, I provide expert guidance to organizations navigating the complex landscape of modern AI threats. My services are designed for companies seeking to ensure the safety of their AI deployments or to defend against AI-enhanced adversaries.
+<div class="featured-in">
+  <span class="featured-in-label">Research featured in</span>
+  {%- for m in page.featured_in %}
+  <a href="{{ m.url }}" title="{{ m.name }}"><img src="{{ m.logo | relative_url }}" alt="{{ m.name }}"></a>
+  {%- endfor %}
+</div>
 
-### Services Offered
-* **Consulting:** Strategic advisory and technical oversight tailored to your mission. I provide the expert review, actionable insights, and robust solutions necessary to navigate complex security and AI landscapes
-* **Training:** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
-* **Research:** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
+</div>
+</div>
+</section>
 
-**Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
+<section class="section section--research" id="research">
+{% include lab-research.html %}
+</section>
 
----
-
-## Grants
-
-Over the years, I have been awarded a number of grants from a wide variety of institutions. Working with these organizations has been an incredible experience. Thank you for your support!
-
-<p float="left">	 
-  <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
-	 <img src="{{site.baseurl}}/assets/logos/MS.png" width="350" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/samsung.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/MoE.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/IIA.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
-    <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
-  	 <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
-</p>
-
----
-
-## Talks
-
-<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University - Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<!-- 
-<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University &#39;24 Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="702" height="395" src="https://www.youtube.com/embed/nK4TMJpLbRE" title="AI Security Forum - Tel Aviv 2026 | Offensive AI Is Here. Now What Do We Do About It?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
--->
-Other Talks:
-- `Stanford University` Real World AI Security (USA 2026) <br/>GAVEL: Rule-Based Security over LLM Activations<br/>
-- `MIT - Massachusetts Institute of Technology` CAMS `Keynote Lecture` (USA 2026) <br/>Offensive AI is here. Now what do we do about it? <br/>
-- `Black Hat` (USA 2026) <br/>Rules for Neural Traffic: A New Defensive Layer for LLMs<br/>
-- `Stanford University`, `Emory University`, `A&M Texas University`, `Georgia Institute of Technology`, `Northeastern University` (USA 2026) <br/>Cyber Threats of AI<br/>
-- `CISPA`, `Max Planck Institute for Security and Privacy (MPI-SP)`, `TU Berlin BIFOLD` (Europe 2026) <br/>Cyber Threats of AI<br/>
-- `AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
-- `Sandia National Laboratories` (USA 2025) `Keynote Talk` <br/>ML/DL Workshop - Offensive AI: The Dark Side of Intelligent Systems<br/>
-- `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
-- `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
-- `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
-- `RSA Security Conference` (USA 2021)<br/>Securing Tesla \& Mobileye From Split-Second Phantom Attacks
-- `Royal Holloway University of London` Invited Talk -- Research Seminar (2019)<br/>
-  Medical Deepfakes: How malware can automatically tamper CT and MRI Scans
-- `MIT - Massachusetts Institute of Technology` Research Seminar (2019)<br/>An invited talk on my research at the ALPHA group of CSAIL (2019).
-- `DEF CON 27` AI Village (USA 2019)<br/>Automated Injection \& Removal of Medical Evidence in CT and MRI Scans
-- `Black Hat` Asia (Singapore 2019)<br/>Briefing: See Like a Bat: Using Echo-Analysis to Detect Man-in-the-Middle Attacks in LANs
-- `Keio University` 9th International Cybersecurity Symposium (Tokyo 2019)<br/>The Security of AI
-- `Bell Labs` Research Center, Nokia (2018)<br/>
-  Online Anomaly Detection Algorithms for Securing the Internet of Things 
-- `Keio University` 7th International Cybersecurity Symposium (Tokyo 2018)<br/>Panelist: The Future for the Security of AI
-- `DBMI` Data Mining and Business Intelligence (Israel, 2017)<br/>Securing IoT Video Surveillance Systems with Online Machine Learning
-- `DeepSec` In-depth Security Conference (Austria, 2016) <br/>Bridging the Air-Gap – Data Exfiltration from Air-Gap Networks
-- `CODE BLUE` (BlackHat Japan) Security Conference (Tokyo, 2016)<br/>
-  Air-Gap Security: State-of-the-art Attacks, Analysis, and Mitigation
-
----
+<section class="section" id="publications" markdown="1">
+<div class="container" markdown="1">
 
 ## Publications
 
-Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
+Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar]({{ site.scholar_url }}).
+
+<div id="pub-list" class="pub-source" markdown="1">
+
 - [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/pdf/2606.09563). Gilad Gressel, Rahul Pankajakshan, Julia Diament, Efim Hudis, Krishnashree Achuthan, Yisroel Mirsky. EMNLP 2026. `Rank A*`
 - [Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents](https://arxiv.org/pdf/2607.19837). Or Zion Eliav, Eyal Lenga, Shir Bernstein, Yisroel Mirsky. ACSAC 2026. `Rank A`
 - [Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams](https://www.usenix.org/conference/usenixsecurity26/presentation/gressel). Gilad Gressel, Rahul Pankajakshan, Shir Rozenfeld, Ling Li, Ivan Franceschini, Krishnashree Achuthan, Yisroel Mirsky. USENIX Security 2026. `Rank A*` `Runner-up Distinguished Paper Award`
@@ -109,7 +95,7 @@ Below is a list of selected publications. For an up-to-date list of publications
 - [Transpose Attack: Stealing Datasets with Bidirectional Training](https://www.ndss-symposium.org/ndss2024/) Guy Amit, Moshe Levy, Yisroel Mirsky. NDSS, 2024. `Rank A*`
 - [VulChecker: Graph-based Vulnerability Localization in Source Code](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky) Yisroel Mirsky, George Macon, Michael Brown, Carter Yagemann, Matthew Pruett, Evan Downing, Sukarno Mertoguno, Wenke Lee. USENIX Security Symposium, 2023. `Rank A*`
 - [Deepfake CAPTCHA: A Method for Preventing Fake Calls](https://dl.acm.org/doi/pdf/10.1145/3579856.3595801) Lior Yasur, Guy Frankovits, Fred M Grabovski, Yisroel Mirsky. ASIA CCS 2023. `Rank A`
-- [The Threat of Offensive AI to Organizations](https://www.sciencedirect.com/science/article/pii/S0167404822003984) Yisroel Mirsky, Ambra Demontis, Jaidip Kotak, Ram Shankar, Deng Gelei, Liu Yang, Xiangyu Zhang, Maura Pintor, Wenke Lee, Yuval Elovici, Battista Biggio. Computers & Secuirty 2022. `IF 5.1, 34/246, Q1`
+- [The Threat of Offensive AI to Organizations](https://www.sciencedirect.com/science/article/pii/S0167404822003984) Yisroel Mirsky, Ambra Demontis, Jaidip Kotak, Ram Shankar, Deng Gelei, Liu Yang, Xiangyu Zhang, Maura Pintor, Wenke Lee, Yuval Elovici, Battista Biggio. Computers & Security 2022. `IF 5.1, 34/246, Q1`
 - [DeepReflect: Discovering Malicious Functionality through Binary Reconstruction](https://www.usenix.org/system/files/sec21fall-downing.pdf) Evan Downing, Yisroel Mirsky, Kyuhong Park, and Wenke Lee.
   USENIX Security Symposium, 2021. `Rank A*`
 - [Attacking Tesla Model Xs Autopilot Using Compromised Advertisement](https://www.ndss-symposium.org/wp-content/uploads/autosec2021_23004_paper.pdf) Ben Nassi, Yisroel Mirsky, Dudi Nassi, Raz Ben-Netanel, Oleg Drokin, and Yuval Elovici. Workshop on Automotive and Autonomous Vehicle Security (AutoSec), 2021. Co-located with NDSS.
@@ -132,7 +118,7 @@ Below is a list of selected publications. For an up-to-date list of publications
 - [Anomaly detection for smartphone data streams](https://www.sciencedirect.com/science/article/pii/S1574119216301067) Yisroel Mirsky, Asaf Shabtai, Bracha Shapira, Yuval Elovici, and Lior Rokach. IEEE, Pervasive and Mobile Computing, 2017. `IF 3.0, 11/77, Q1`
 - [User verification on mobile devices using sequences of touch gestures](https://dl.acm.org/doi/pdf/10.1145/3079628.3079644). Liron Ben Kimon, Yisroel Mirsky, Lior Rokach, and Bracha Shapira. The 25th Conference on User Modeling, Adaptation and Personalization, 2017. `Rank A`
 - [9-1-1 DDoS: attacks, analysis and mitigation](https://ieeexplore.ieee.org/iel7/7961955/7961936/07961982.pdf) Mordechai Guri, Yisroel Mirsky, and Yuval Elovici.
-  IEEE European Symposium on Security and Privacy (EuroS\&P), 2017.  `Rank A`
+  IEEE European Symposium on Security and Privacy (EuroS&P), 2017.  `Rank A`
 - [Sherlock vs moriarty: A smartphone dataset for cybersecurity research](https://dl.acm.org/doi/pdf/10.1145/2996758.2996764) Yisroel Mirsky, Asaf Shabtai, Lior Rokach, Bracha Shapira, and Yuval Elovici. Proceedings of the 2016 ACM workshop on Artificial intelligence and security (AISec), 2016.  Co-located with CCS. 
 - [Bitwhisper: Covert signaling channel between air-gapped computers using thermal manipulations](https://ieeexplore.ieee.org/iel7/7243288/7243713/07243739.pdf) Mordechai Guri, Matan Monitz, Yisroel Mirsky, and Yuval Elovici. IEEE 28th Computer Security Foundations Symposium (CSF), 2015. `Rank A`
 - [pcstream: A stream clustering algorithm for dynamically detecting and managing temporal contexts](https://link.springer.com/chapter/10.1007/978-3-319-18032-8_10) Yisroel Mirsky, Bracha Shapira, Lior Rokach, and Yuval Elovici.
@@ -140,5 +126,114 @@ Below is a list of selected publications. For an up-to-date list of publications
 - [GSMem: Data Exfiltration from Air-Gapped Computers over {GSM} Frequencies](https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-guri.pdf). Mordechai Guri, Assaf Kachlon, Ofer Hasson, Gabi Kedma, Yisroel Mirsky, and Yuval Elovici.
   USENIX Security Symposium, 2015. `Rank A*`
 
+</div>
+</div>
+</section>
 
+<section class="section" id="talks" markdown="1">
+<div class="container" markdown="1">
 
+## Talks
+
+<div class="video-grid">
+<iframe loading="lazy" width="702" height="395" src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University - Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="702" height="395" src="https://www.youtube.com/embed/-5UnuxXUi4k" title="USENIX Security &#39;24 - What Was Your Prompt? A Remote Keylogging Attack on AI Assistants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<!-- 
+<iframe width="702" height="395"  src="https://www.youtube.com/embed/IUnmtDoyBvk" title="Stanford University &#39;24 Real World AI Security 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="702" height="395" src="https://www.youtube.com/embed/nK4TMJpLbRE" title="AI Security Forum - Tel Aviv 2026 | Offensive AI Is Here. Now What Do We Do About It?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+-->
+
+### Other Talks
+
+<div class="talk-list" markdown="1">
+
+- `Stanford University` Real World AI Security (USA 2026) <br/>GAVEL: Rule-Based Security over LLM Activations<br/>
+- `MIT - Massachusetts Institute of Technology` CAMS `Keynote Lecture` (USA 2026) <br/>Offensive AI is here. Now what do we do about it? <br/>
+- `Black Hat` (USA 2026) <br/>Rules for Neural Traffic: A New Defensive Layer for LLMs<br/>
+- `Stanford University`, `Emory University`, `A&M Texas University`, `Georgia Institute of Technology`, `Northeastern University` (USA 2026) <br/>Cyber Threats of AI<br/>
+- `CISPA`, `Max Planck Institute for Security and Privacy (MPI-SP)`, `TU Berlin BIFOLD` (Europe 2026) <br/>Cyber Threats of AI<br/>
+- `AI Security Forum` (Tel Aviv 2025) <br/>Offensive AI is here. Now what?<br/>
+- `Sandia National Laboratories` (USA 2025) `Keynote Talk` <br/>ML/DL Workshop - Offensive AI: The Dark Side of Intelligent Systems<br/>
+- `DEF CON 32` (USA 2024) <br/>Your AI Assistant has a Big Mouth: A New Side Channel Attack
+- `BIRD - US & Israel Dept Energy - ICRDE` (Webinar 2023) <br/>The Threat Horizon of Real Time Deepfakes<br/>
+- `CSIRO Data61` (Australia 2022) <br/>The Threat Horizon of Deepfakes<br/>
+- `RSA Security Conference` (USA 2021)<br/>Securing Tesla & Mobileye From Split-Second Phantom Attacks
+- `Royal Holloway University of London` Invited Talk -- Research Seminar (2019)<br/>
+  Medical Deepfakes: How malware can automatically tamper CT and MRI Scans
+- `MIT - Massachusetts Institute of Technology` Research Seminar (2019)<br/>An invited talk on my research at the ALPHA group of CSAIL (2019).
+- `DEF CON 27` AI Village (USA 2019)<br/>Automated Injection & Removal of Medical Evidence in CT and MRI Scans
+- `Black Hat` Asia (Singapore 2019)<br/>Briefing: See Like a Bat: Using Echo-Analysis to Detect Man-in-the-Middle Attacks in LANs
+- `Keio University` 9th International Cybersecurity Symposium (Tokyo 2019)<br/>The Security of AI
+- `Bell Labs` Research Center, Nokia (2018)<br/>
+  Online Anomaly Detection Algorithms for Securing the Internet of Things 
+- `Keio University` 7th International Cybersecurity Symposium (Tokyo 2018)<br/>Panelist: The Future for the Security of AI
+- `DBMI` Data Mining and Business Intelligence (Israel, 2017)<br/>Securing IoT Video Surveillance Systems with Online Machine Learning
+- `DeepSec` In-depth Security Conference (Austria, 2016) <br/>Bridging the Air-Gap – Data Exfiltration from Air-Gap Networks
+- `CODE BLUE` (BlackHat Japan) Security Conference (Tokyo, 2016)<br/>
+  Air-Gap Security: State-of-the-art Attacks, Analysis, and Mitigation
+
+</div>
+</div>
+</section>
+
+<section class="section" id="consulting" markdown="1">
+<div class="container" markdown="1">
+
+## Consulting, Research, & Training
+
+With over a decade of experience in **red teaming** and **AI security research** and as a **principal investigator in over $4 million of projects with government and industry**, I provide expert guidance to organizations navigating the complex landscape of modern AI threats. My services are designed for companies seeking to ensure the safety of their AI deployments or to defend against AI-enhanced adversaries.
+
+### Services Offered
+
+<div class="services" markdown="1">
+
+* **Consulting** Strategic advisory and technical oversight tailored to your mission. I provide the expert review, actionable insights, and robust solutions necessary to navigate complex security and AI landscapes
+* **Training** Professional talks and training seminars delivered at all levels. From in-depth lectures covering all aspects of offensive AI to engaging invited talks at corporate events, I provide custom educational experiences tailored to your organizational needs.
+* **Research** Independent, cutting-edge investigations into emerging threat vectors and technologies. I offer specialized analysis and deep-domain exploration to stay ahead of the rapidly evolving Offensive AI frontier.
+
+</div>
+
+<div class="cta" markdown="1">
+
+**Interested in working together?** Please reach out via email at [yisroel@pegasec.io](mailto:yisroel@pegasec.io) to discuss your project or event.
+
+</div>
+</div>
+</section>
+
+<section class="section" id="students" markdown="1">
+<div class="container" markdown="1">
+<div class="callout" markdown="1">
+
+## Prospective Students
+
+I am actively seeking excellent M.Sc., Ph.D. and post-doc students who would like to research offensive AI (adversarial machine learning, AI safety, deepfakes, attack automation, ...). If you are interested, [come check out our lab]({{ site.lab_url }}) or send me an email!
+
+</div>
+</div>
+</section>
+
+<section class="section" id="grants" markdown="1">
+<div class="container" markdown="1">
+
+## Grants
+
+Over the years, I have been awarded a number of grants from a wide variety of institutions. Working with these organizations has been an incredible experience. Thank you for your support!
+
+<div class="logo-wall">
+  <img src="{{site.baseurl}}/assets/logos/erc.png" alt="European Research Council (ERC)" />
+  <img src="{{site.baseurl}}/assets/logos/MS.png" alt="Microsoft" />
+  <img src="{{site.baseurl}}/assets/logos/samsung.png" alt="Samsung" />
+  <img src="{{site.baseurl}}/assets/logos/H2020.png" alt="Horizon 2020" />
+  <img src="{{site.baseurl}}/assets/logos/DoE.png" alt="U.S. Department of Energy" />
+  <img src="{{site.baseurl}}/assets/logos/MoE.png" alt="Israel Ministry of Energy" />
+  <img src="{{site.baseurl}}/assets/logos/IIA.png" alt="Israel Innovation Authority" />
+  <img src="{{site.baseurl}}/assets/logos/bird.png" alt="BIRD Foundation" />
+  <img src="{{site.baseurl}}/assets/logos/CyberDir.png" alt="Israel National Cyber Directorate" />
+  <img src="{{site.baseurl}}/assets/logos/cclp.png" alt="CCLP" />
+  <img src="{{site.baseurl}}/assets/logos/MOST.png" alt="Israel Ministry of Science, Technology and Space" />
+</div>
+
+</div>
+</section>

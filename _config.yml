@@ -6,6 +6,25 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Dr. Yisroel Mirsky is an AI security researcher and tenured Assistant Prof. at Ben-Gurion University. His main research interests include AI security, safety and misuse. 
 
 
+# Links used across the site
+lab_url: https://offensive-ai-lab.com   # Featured Research + new lab papers are pulled live from here (assets/js/lab-sync.js)
+scholar_url: https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en
+
+# Header menu, in order
+nav:
+  - title: About
+    url: /#about
+  - title: Research
+    url: /#research
+  - title: Publications
+    url: /#publications
+  - title: Talks
+    url: /#talks
+  - title: Consulting
+    url: /#consulting
+  - title: Course
+    url: /course/
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -53,6 +72,9 @@ minima:
 # - about.md
 
 # Build settings
+kramdown:
+  auto_id_prefix: h-   # keeps heading anchors from clashing with the home page section ids (#about, #talks, ...)
+
 theme: minima
 
 plugins:

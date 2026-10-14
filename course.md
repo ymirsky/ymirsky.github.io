@@ -7,7 +7,7 @@ permalink: /course/
 
 <body style="background-color: #142326"></body>
 
-<a href="https://offensive-ai-lab.github.io/"><svg id="d3banner"></svg></a>
+<a href="{{ site.lab_url }}"><svg id="d3banner"></svg></a>
 
 {% include datavis_d3banner.html %}
 

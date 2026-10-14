@@ -3,14 +3,12 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body data-lab-url="{{ site.lab_url }}">
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <main class="page-content" id="top" aria-label="Content">
+      {{ content }}
     </main>
 
     {%- include footer.html -%}

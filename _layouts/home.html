@@ -1,63 +1,36 @@
 ---
 layout: default
 ---
+{%- assign hero = page.hero -%}
+<section class="hero" aria-label="Introduction">
+  <svg id="d3banner" class="banner-fill" aria-hidden="true"></svg>
+
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      {%- if hero.eyebrow %}<p class="eyebrow">{{ hero.eyebrow }}</p>{% endif %}
+      <h1 class="hero-title">{{ hero.name | default: site.title }}</h1>
+      {%- if hero.role %}<p class="hero-role">{{ hero.role }}</p>{% endif %}
+      {%- if hero.lead %}<p class="hero-lead">{{ hero.lead }}</p>{% endif %}
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#research">Featured research</a>
+        <a class="btn" href="#publications">Publications</a>
+        <a class="btn btn-ghost" href="#consulting">Work with me</a>
+      </div>
+    </div>
+
+    {%- if page.highlights %}
+    <ul class="highlights">
+      {%- for h in page.highlights %}
+      <li class="highlight"><span class="highlight-value">{{ h.value }}</span><span class="highlight-label">{{ h.label }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-
-
   {{ content }}
-
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-
 </div>
+
+{% include datavis_d3banner.html %}
+<script src="{{ '/assets/js/lab-sync.js' | relative_url }}" defer></script>
